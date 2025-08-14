@@ -7,5 +7,7 @@ public class Main {
         System.out.println("Age: " + person.getAge());
         person.setAge(31);
         System.out.println("Updated Age: " + person.getAge());
+        person.setName("Bob");
+        System.out.println("Updated Name: " + person.getName());
     }
 }
